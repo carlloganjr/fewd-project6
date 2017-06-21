@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  color: #111;
+  background: url('svgs/background.svg') #edeff0;
+}
+
+#container {
+  max-width: 960px;
+  background: #fff;
+  margin: 0 auto;
+}
+
+p {
+  max-width: 350px;
+  margin: 35px auto 0;
+  line-height: 2em;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: #39add1;
+  font-weight: 700;
+  }
+  a:hover {
+    color: slateblue;
+  }
+
+header {
+  padding-top: 10px;
+}
+  header nav {
+    padding-bottom: 50px;
+    text-align: left;
+  }
+  header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  header nav ul li a img {
+    height: 13px;
+  }
+
+  header h1 {
+    line-height: 1em;
+  }
+
+main {
+  padding-top: 50px;
+}
+  main h2 {
+  font-size: 28px;
+}
+  main ul {
+    padding: 0;
+  }
+    main li {
+      display: inline-block;
+      color: #ba8058;
+      margin-right: 20px;
+    }
+      main li img {
+        margin-bottom: 15px;
+      }
+      main li span {
+        margin-left: -40px;
+      }
+      main li:last-child {
+        margin-right: 0;
+      }
+
+footer {
+  width: 100%;
+  margin-top: 100px;
+  padding-bottom: 30px;
+  color: #ba8058;
+}
+
+
+/************* SVG STYLES **************/
+
+.logo {
+  width: 140px;
+  height: 120px;
+}
+
+.paw {
+  display: none;
+}
+
+.corgi {
+  width: 170px;
+  height: 170px;
+}
+
+.icon {
+  width: 15px;
+  height: 13px;
+  fill: #39add1;
+  overflow: visible;
+}
+
+.icon-path {
+  transition: .4s ease-out;
+}
+
+a:hover .icon-path {
+  fill: slateblue;
+  transform: scale(1.2);
+}
+
+.dilute-tricolor {
+  fill: #696969;
+}
+
+.d-tricolor-stroke {
+  stroke: #deb887;
+  stroke-width: 4px;
+}
+
+.dilute-sable {
+  fill: #d6c2ad;
+}
+
+.ds-brow {
+  fill: #000;
+}
+
+.mismarked-red {
+  fill: #f4a460;
+}
+
+.tricolor {
+  fill: #000;
+}
+
+.tricolor-eye {
+  stroke: #fff;
+  stroke-width: 2px;
+}
+
+.tricolor-brow {
+  fill: #deb887;
+}
+
+.tricolor-nose {
+  stroke: #deb887;
+  stroke-width: 4px;
+}
+
+@media (max-width: 425px) {
+
+  .logo-text {
+    display: none;
+  }
+
+  .paw {
+    display: block;
+    color: #EAAA7F;
+    margin: -.25em auto;
+  }
+
+}
