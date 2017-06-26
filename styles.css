@@ -103,55 +103,31 @@ footer {
   height: 13px;
   fill: #39add1;
   overflow: visible;
+  transition: transform .4s ease-out;
 }
 
-.icon-path {
-  transition: .4s ease-out;
-}
-
-a:hover .icon-path {
+a:hover .icon {
   fill: slateblue;
   transform: scale(1.2);
 }
 
-.dilute-tricolor {
-  fill: #696969;
+
+.red {
+  fill: blue;
 }
 
-.d-tricolor-stroke {
-  stroke: #deb887;
-  stroke-width: 4px;
+.fawn {
+  fill: purple;
 }
 
-.dilute-sable {
-  fill: #d6c2ad;
+.sable {
+  fill: red;
 }
 
-.ds-brow {
-  fill: #000;
+.black {
+  fill: lightblue;
 }
 
-.mismarked-red {
-  fill: #f4a460;
-}
-
-.tricolor {
-  fill: #000;
-}
-
-.tricolor-eye {
-  stroke: #fff;
-  stroke-width: 2px;
-}
-
-.tricolor-brow {
-  fill: #deb887;
-}
-
-.tricolor-nose {
-  stroke: #deb887;
-  stroke-width: 4px;
-}
 
 @media (max-width: 425px) {
 
